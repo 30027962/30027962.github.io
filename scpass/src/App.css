@@ -1,0 +1,109 @@
+* {
+	box-sizing: border-box;
+	
+}
+:root {
+	--ff-primary: "Roboto", sans-serif;
+	--br: 5px;
+	--shadow: 0 21px 36px rgba(0, 0, 0, 0.05);
+}
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+background-color: tomato;
+	margin: 0;
+	padding: 0;
+	
+
+	
+}
+.App {
+	max-width: 840px;
+	margin: 0 auto;
+	padding: 20px;
+	
+}
+main {
+	padding: 30px 10px;
+	min-height: 55vh;
+	background-image: url("https://cutewallpaper.org/21/black-gif-background/Pin-on-Gif.gif");
+}
+
+header {
+	margin-top: 20px;
+
+	padding: 30px;
+	border-radius: 10px;
+
+	box-shadow: var(--shadow);
+	background-color:blue;
+}
+header h1 {
+	font-weight: 500;
+}
+
+button {
+	padding: 12.5px 15px;
+	border-radius: var(--br);
+	border: none;
+	background-color: white;
+	box-shadow: var(--shadow);
+	font-family: var(--ff-primary);
+	font-weight: 500;
+	cursor: pointer;
+}
+
+button.primary {
+	background-color: rgb(19, 148, 19);
+	color: white;
+}
+
+ul li {
+	cursor: pointer;
+}
+
+article {
+	margin: 50px 0;
+	background-color: rgba(134, 154, 161, 0.5);
+	background-image: url("https://cutewallpaper.org/21/black-gif-background/Pin-on-Gif.gif");
+	color: whitesmoke;
+
+}
+
+article h2 {
+	font-family: var(--ff-primary);
+	margin-bottom: 0;
+	color: whitesmoke;
+}
+
+.info {
+	padding: 10px;
+}
+.info .class {
+	margin-top: 10px;
+	color: grey;
+}
+.info .class span {
+	color: black;
+}
+.details .part {
+	margin: 20px 0;
+}
+.details p {
+	text-align: justify;
+	line-height: 1.6;
+	margin: 0;
+}
+.details p.head {
+	font-weight: 700;
+	font-size: 1.2rem;
+	font-family: var(--ff-primary);
+	margin-bottom: 15px;
+}
+.details img {
+	width: 100%;
+}
+
+footer {
+	text-align: right;
+}
